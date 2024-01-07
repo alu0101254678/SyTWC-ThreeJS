@@ -4,12 +4,15 @@
   "description": "Proyecto relacionado con la creación de una web basada en ThreeJS para la asignatura Sistemas y Tecnologías Web Cliente",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "deploy": "gh-pages -d dist -r https://github.com/alu0101254678/SyTWC-ThreeJS"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/three": "^0.160.0",
+    "gh-pages": "^6.1.1",
     "three": "^0.160.0"
   },
   "devDependencies": {

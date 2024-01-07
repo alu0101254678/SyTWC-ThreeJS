@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplicación Educativa Three.js</title>
+  <style>
+    #info {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      border-radius: 5px;
+    }
+    #buttonContainer {
+      position: absolute;
+      top: 60px;
+      left: 10px;
+      display: flex;
+      gap: 10px;
+    }
+  </style>
+</head>
+<body>
+  <script type="module" src="./app.js"></script>
+  <div id="info"></div>
+  <div id="buttonContainer">
+    <button id="newSceneButton">Nueva escena</button>
+    <button id="downloadButton">Descargar objeto</button>
+  </div>
+</body>
+</html>
